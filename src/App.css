@@ -10,33 +10,3 @@ body {
   background-color: #eff3f7;
   height: 100%;
 }
-
-html,
-body,
-.container {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.loader {
-  width: 100%;
-  height: 100%;
-  /* Flex container */
-  display: flex;
-  /* 메인 축 방향 정렬 */
-  justify-content: center;
-  /* 수직 축 방향 정렬 */
-  align-items: center;
-  font-weight: 300;
-}
-
-.movies {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 50px;
-  padding-top: 70px;
-  width: 80%;
-}
